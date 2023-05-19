@@ -4,7 +4,7 @@
 
 Bullet is a Bullet Journal style diary app.
 
-[toc]
+[TOC]
 
 ## Getting started
 
@@ -16,7 +16,7 @@ Bullet support Android and IOS. You can download from these.
 
 [IOS](https://apps.apple.com/us/app/id1581227244?l=en-us&platform=iphone) [https://apps.apple.com/us/app/id1581227244?l=en-us&platform=iphone](https://apps.apple.com/us/app/id1581227244?l=en-us&platform=iphone)
 
-### Compared to Bullet Journal
+### About Bullet Journal
 
 <img align="right" src="./imgs/futurelogs.jpg" width="100px" />
 
@@ -73,4 +73,40 @@ Task can be any kind actionable items, it can be change status to Completed, Mig
 In Bullet Journal, the collection is list for notes and tasks that are related by a common theme or purpose.
 
 In **Bullet**, it also has collections. You can create collections, but you didn't need to add items in collections. What you need is related collection when you are creating a item and it will auto showed in the Collection Detail Page.
+
+## Basic Tutorial
+
+### Item
+
+#### Create a item
+
+Tap the add btn in Daily Logs page, you can open the add view.
+
+![Item Add View](./imgs/itemaddview.jpg)
+
+Just add the item content and notes (optional) and tap the send btn to save the item!
+
+#### Update item
+
+If you want to edit or del a item, you can drag the item to left in the logs list and you will see two btns: Delete and Edit.
+
+![Item Del or Edit](./imgs/itemdeloredit.jpg)
+
+If you want to change the task status, you can drag the item to right in log list and you will see three task just tap and task status will be changed.
+
+![Update Task Status](./imgs/itemchangetaskstatus.jpg)
+
+### Collection
+
+#### Create a collection
+
+You can tap the add btn in collection list page it will jump to the collection new page.
+
+![Collection Add View](./imgs/collectionadd.jpg)
+
+#### Edit or add sub collection
+
+You can drag the collection to left in collection list page and you will see three btns: Archive, Edit, Add Sub Collection.
+
+![Collection Edit](./imgs/collectionaddsuboredit.jpg)
 
