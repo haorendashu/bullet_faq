@@ -72,7 +72,7 @@ Task can be any kind actionable items, it can be change status to Completed, Mig
 
 In Bullet Journal, the collection is list for notes and tasks that are related by a common theme or purpose.
 
-In **Bullet**, it also has collections. You can create collections, but you didn't need to add items in collections. What you need is related collection when you are creating a item and it will auto showed in the Collection Detail Page.
+In **Bullet**, it also has collections. You can create collections, but you didn't need to add items in collections. What you need is bind collection when you are creating a item and it will auto showed in the Collection Detail Page.
 
 ## Basic Tutorial
 
@@ -109,4 +109,42 @@ You can tap the add btn in collection list page it will jump to the collection n
 You can drag the collection to left in collection list page and you will see three btns: Archive, Edit, Add Sub Collection.
 
 ![Collection Edit](./imgs/collectionaddsuboredit.jpg)
+
+### Bind items with Collection
+
+If you want to bind item with collection, you should tap the collection btn in edit view and it will show you the bind view. Just select the collection you want to bind and comfirm.
+
+![Item Collection btn](./imgs/itemcollectionbtn.jpg)
+
+![Item Bind Collections](./imgs/itembindcollection.jpg)
+
+You don't need to bind item with the parent collection you just need to bind it to the sub collection. You can see the next image, *Swimming* is the sub collection for *Sport*. When the item only bind with *Swimming*, it will showed in both collection Detail.
+
+![Sub Collection](./imgs/collectionsub.jpg)
+
+![Item bind Result](./imgs/itembindresult.jpg)
+
+![Item bind parent Result](./imgs/itembindparentresult.jpg)
+
+### Mainly Pages Description
+
+You can tap the bottom bar to change the page.
+
+![Bottom Bar](./imgs/bottombar.jpg)
+
+The Btns in bottom bar is: 
+
+**Daily Logs**, the Bullet Journal daily logs page.
+
+**Inbox**, All logs will show in this list and you can also search items here.
+
+**Month View**, the month view is similar with [Monthly Logs](#Monthly Logs).
+
+**Future Logs**, the Bullet Journal future logs page.
+
+**Data Statistics**, your BuJo statistics will be showed here.
+
+**Collection List**, the collection list page.
+
+**Setting**, the setting page.
 
