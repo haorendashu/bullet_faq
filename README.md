@@ -138,7 +138,7 @@ The Btns in bottom bar is:
 
 **Inbox**, All logs will show in this list and you can also search items here.
 
-**Month View**, the month view is similar with [Monthly Logs](#Monthly Logs).
+**Month View**, the month view is similar with [Monthly Logs](#monthly-logs) .
 
 **Future Logs**, the Bullet Journal future logs page.
 
