@@ -148,3 +148,139 @@ The Btns in bottom bar is:
 
 **Setting**, the setting page.
 
+## Advanced Tutorial
+
+### Collection Setting
+
+#### Collection Type
+
+There are many show types for collection. With different show type, collectoin will showed in a different way.
+
+##### Collection Type - List
+
+With *List* show type, collection detail will show items just line comment item list.
+
+![Collection Detail](./imgs/collectiondetaillist.jpg)
+
+##### Collection Type - Month
+
+With *Month* show type, collection detail will show items in the month view.
+
+![Collection Detail](./imgs/collectiondetailmonth.jpg)
+
+##### Collection Type - Line
+
+With *Month* show type, collection detail will show items in a line chart.
+
+![Collection Detail](./imgs/collectiondetailline.jpg)
+
+##### Collection Type - Bill
+
+With *Month* show type, collection detail will show items just like a bill list.
+
+![Collection Detail](./imgs/collectiondetailbill.jpg)
+
+##### Collection Type - Pie
+
+With *Month* show type, collection detail will show items in a pie chart.
+
+![Collection Detail](./imgs/collectiondetailpie.jpg)
+
+##### Collection Type - Album
+
+With *Month* show type, collection detail will show all image from items just like album.
+
+![Collection Detail](./imgs/collectiondetailalbum.jpg)
+
+##### Collection Type - Address
+
+With *Month* show type, collection detail will show items’s address in a map.
+
+![Collection Detail](./imgs/collectiondetailaddress.jpg)
+
+#### Collection Repetition
+
+How to make a repet task in ***Bullet***, the method is to set a *Repetition* with Collection.
+
+There are four repetition setting: *Daily*, *Weekly*, *Monthly* and *Annually*.
+
+With the repetition setting, a temp task will show in the daily logs. Tap this temp task and it will showed the edit view. You can tap the comfirm btn it will insert a  completed task.
+
+![Collection Detail](./imgs/repettask.jpg)
+
+### Custom UI
+
+#### Change Background Image
+
+You can change background image in *Setting* - *Background Image* or change collection background in collectoin edit page.
+
+![Change Background Image](./imgs/changebg.jpg)
+
+#### Theme Style
+
+There are two theme style for ***Bullet***, *Dart* and *Light*. You can change it in *Setting* - *Theme Style*
+
+![Theme Style](./imgs/themestyle.jpg)
+
+#### Theme Color
+
+
+There are seven theme color for ***Bullet***. You can change it in *Setting* - *Theme Color*
+
+![Theme Colors](./imgs/themes.jpg)
+
+#### Font Family
+
+You can change custom font family in *Setting* - *Font Family*.
+
+![Font Family](./imgs/fontfamily.jpg)
+
+#### Font Color
+
+There are four tyoe font color: *Font Color*, *Top Font Color*, *Hint Color* and *Bottom Icon Color*.
+
+##### Font Color
+
+Font Color is there base font color.
+
+##### Top Font Color
+
+![Top Font Color](./imgs/fontcolortop.jpg)
+
+##### Hint Color
+
+![Hint Color](./imgs/fontcolorhint.jpg)
+
+##### Bottom Icon Color
+
+![Bottom Icon Color](./imgs/fontcolorbottom.jpg)
+
+### Data Sync
+
+***Bullet*** support WebDav data sync. You can config in *Setting* - *Cloud Sync Settings* with *WebDav Address*, *Username* and *Password*.
+
+### Data Search
+
+You can search in search page or inbox page. Users can not only search for Item content, but also search for information such as Item status and time through some parameters.
+
+```date```, search the specific item data.
+
+```startDate```, search items from this time.
+
+```endDate```, search items to this time.
+
+```bulletType```, search the specific bullet type items. ```1``` - Task, ```2``` - Note, ```3``` - Event.
+
+```taskStatus```, search the specific task status items. ```2``` - Complete, ```-1``` - UnComplete.
+
+You should format the ```data```, ```startDate``` and ```endDate``` with the format ```yyyyMMdd``` like ```20230523```.
+
+Parameter name and Parameter value should joined with a ```:```
+
+You should join parameters with a space.
+
+For Example, find the bulletType is Task, taskStatus is Complete, item date between 20230516 and 20230523 and the item content contain ```test``` string.
+
+```
+bulletType:1 taskStatus:2 startDate:20230516 endDate:20230523 test
+```
